@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "object"
+    },
+    "parentId": {
+      "type": ["object","null"]
+    },
+    "childrenUpperBound": {
+      "type": "integer"
+    },
+    "prev": {
+      "type": ["object","null"]
+    },
+    "next": {
+      "type": ["object","null"]
+    },
+    "childNumbers": {
+      "type": "array"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "childrenLowerBound": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "_id",
+    "parentId",
+    "childrenUpperBound",
+    "prev",
+    "next",
+    "childNumbers",
+    "name",
+    "childrenLowerBound"
+  ]
+}

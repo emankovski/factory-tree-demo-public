@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Factory Button handles click 1`] = `
+Array [
+  <button
+    className="mdc-fab"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "bottom": 20,
+        "position": "fixed",
+        "right": 20,
+        "zIndex": 1,
+      }
+    }
+  >
+    <i
+      className="material-icons mdc-fab__icon"
+    >
+      add
+    </i>
+  </button>,
+  <div>
+    <div
+      aria-describedby="mdc-dialog-content"
+      aria-labelledby="mdc-dialog-title"
+      aria-modal={true}
+      className="mdc-dialog mdc-dialog--opening"
+      id="mdc-dialog"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="alertdialog"
+    >
+      <div
+        className="mdc-dialog__container"
+      >
+        <div
+          className="mdc-dialog__surface"
+        >
+          <h2
+            className="mdc-dialog__title"
+            id="mdc-dialog-title"
+          >
+            Add Factory
+          </h2>
+          <div
+            className="mdc-dialog__content"
+            id="mdc-dialog-content"
+          >
+            <div
+              className="mdc-text-field"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              style={
+                Object {
+                  "marginBottom": "20px",
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                className="mdc-text-field__input"
+                disabled={false}
+                id=""
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+                placeholder={null}
+                value=""
+              />
+              <label
+                className="mdc-floating-label"
+                htmlFor=""
+                onAnimationEnd={[Function]}
+              >
+                Factory Name
+              </label>
+              <div
+                className="mdc-line-ripple"
+                onTransitionEnd={[Function]}
+                style={Object {}}
+              />
+            </div>
+            <div
+              className="mdc-text-field"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              style={
+                Object {
+                  "marginBottom": "20px",
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                className="mdc-text-field__input"
+                disabled={false}
+                id=""
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+                placeholder={null}
+                value={1}
+              />
+              <label
+                className="mdc-floating-label mdc-floating-label--float-above"
+                htmlFor=""
+                onAnimationEnd={[Function]}
+              >
+                Min Value
+              </label>
+              <div
+                className="mdc-line-ripple"
+                onTransitionEnd={[Function]}
+                style={Object {}}
+              />
+            </div>
+            <div
+              className="mdc-text-field"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              style={
+                Object {
+                  "marginBottom": "inherit",
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                className="mdc-text-field__input"
+                disabled={false}
+                id=""
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+                placeholder={null}
+                value={500}
+              />
+              <label
+                className="mdc-floating-label mdc-floating-label--float-above"
+                htmlFor=""
+                onAnimationEnd={[Function]}
+              >
+                Max Value
+              </label>
+              <div
+                className="mdc-line-ripple"
+                onTransitionEnd={[Function]}
+                style={Object {}}
+              />
+            </div>
+            <div
+              className="mdc-chip"
+              disabled={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              onTransitionEnd={[Function]}
+              style={
+                Object {
+                  "border": "1px solid red",
+                  "marginTop": "20px",
+                }
+              }
+              tabIndex={0}
+            >
+              <div
+                className="mdc-chip__text"
+              >
+                Name range is 1 to 128 chars
+              </div>
+            </div>
+          </div>
+          <footer
+            className="mdc-dialog__actions"
+          >
+            <button
+              className="mdc-button mdc-dialog__button"
+              data-mdc-dialog-action="save"
+              disabled={true}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={Object {}}
+            >
+              <span
+                className="mdc-button__label"
+              >
+                Save
+              </span>
+            </button>
+            <button
+              className="mdc-button mdc-dialog__button"
+              data-mdc-dialog-action="dismiss"
+              disabled={false}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={Object {}}
+            >
+              <span
+                className="mdc-button__label"
+              >
+                Cancel
+              </span>
+            </button>
+          </footer>
+        </div>
+      </div>
+      <div
+        className="mdc-dialog__scrim"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Add Factory Button it renders as button 1`] = `
+<button
+  className="mdc-fab"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "bottom": 20,
+      "position": "fixed",
+      "right": 20,
+      "zIndex": 1,
+    }
+  }
+>
+  <i
+    className="material-icons mdc-fab__icon"
+  >
+    add
+  </i>
+</button>
+`;

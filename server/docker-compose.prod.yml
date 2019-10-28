@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  api:
+    image: factory-tree-server:prod
+    container_name: factory-tree-server
+    ports:
+      - 80:80
+    build:
+      context: .
+      dockerfile: Dockerfile-prod
+

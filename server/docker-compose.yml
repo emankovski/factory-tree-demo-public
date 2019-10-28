@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  api:
+    image: factory-tree-server
+    container_name: factory-tree-server
+    env_file:
+      - ./.env
+    build: .
+    ports:
+      - 3001:${PORT}
+      - 9229:9229
+    volumes:
+      - ./:/usr/src/app

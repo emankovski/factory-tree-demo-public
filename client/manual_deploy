@@ -1,0 +1,6 @@
+#! /bin/bash
+cd ~/Documents/Projects/Git/factory-tree/client
+npm run build-docker-prod
+docker tag factory-tree-web-client:prod 803115477085.dkr.ecr.us-east-2.amazonaws.com/factory-tree-web-client:prod
+# $(aws ecr get-login --no-include-email --region us-east-2)
+docker push 803115477085.dkr.ecr.us-east-2.amazonaws.com/factory-tree-web-client:prod

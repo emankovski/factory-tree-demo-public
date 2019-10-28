@@ -1,0 +1,58 @@
+{
+	"name": "factory-tree-web-client",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@material/react-button": "^0.15.0",
+		"@material/react-card": "^0.15.0",
+		"@material/react-chips": "^0.15.0",
+		"@material/react-dialog": "^0.15.0",
+		"@material/react-fab": "^0.15.0",
+		"@material/react-icon-button": "^0.15.0",
+		"@material/react-linear-progress": "^0.15.0",
+		"@material/react-list": "^0.15.0",
+		"@material/react-material-icon": "^0.15.0",
+		"@material/react-menu": "^0.15.0",
+		"@material/react-snackbar": "^0.15.0",
+		"@material/react-text-field": "^0.15.0",
+		"@material/react-typography": "^0.15.0",
+		"eslint-plugin-prettier": "^3.1.0",
+		"prettier": "^1.18.2",
+		"prop-types": "^15.7.2",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"socket.io-client": "^2.2.0"
+	},
+	"devDependencies": {
+		"eslint-plugin-react-hooks": "^2.0.1",
+		"react-scripts": "3.1.1",
+		"react-test-renderer": "^16.9.0"
+	},
+	"scripts": {
+		"start": "REACT_APP_API_HOST=http://192.168.1.247:3001 react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"rebuild-docker": "docker-compose up -d --build",
+		"build-docker": "docker-compose build",
+		"start-docker": "docker-compose up",
+		"stop-docker": "docker-compose down",
+		"build-docker-prod": "docker-compose -f docker-compose.prod.yml up -d --build",
+		"start-docker-prod": "docker-compose -f docker-compose.prod.yml up"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 3 chrome version",
+			"last 3 firefox version",
+			"last 3 safari version"
+		]
+	}
+}

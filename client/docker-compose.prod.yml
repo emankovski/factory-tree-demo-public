@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app:
+    image: factory-tree-web-client:prod
+    container_name: factory-tree-web-client
+    build:
+      context: .
+      dockerfile: Dockerfile-prod
+    ports:
+      - 80:80

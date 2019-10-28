@@ -1,0 +1,30 @@
+{
+  "name": "factory-tree-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "docker system prune -a",
+    "build-docker": "docker-compose build",
+    "rebuild-docker": "docker-compose up -d --build",
+    "start-docker": "docker-compose up",
+    "stop-docker": "docker-compose down",
+    "start-local": "nodemon --inspect=0.0.0.0 ./index.js",
+    "start-prod": "node ./index.js",
+    "build-docker-prod": "docker-compose -f docker-compose.prod.yml up -d --build",
+    "start-docker-prod": "docker-compose -f docker-compose.prod.yml up"
+  },
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.1.0",
+    "express": "~4.16.1",
+    "lorem-ipsum": "^2.0.3",
+    "mongodb": "^3.3.2",
+    "morgan": "~1.9.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

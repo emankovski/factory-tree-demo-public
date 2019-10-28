@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+
+  app:
+    image: factory-tree-web-client
+    container_name: factory-tree-web-client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+      - REACT_APP_API_HOST=http://127.0.0.1:3001
+      - PORT=8081
+    ports:
+      - 8080:8081
+
