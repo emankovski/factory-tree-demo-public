@@ -1,4 +1,5 @@
-Challenge description:
+## Challenge description:
+
 Demonstrate​ ​your​ ​knowledge​ ​of​ ​several​ ​technologies,​ ​including​ ​databases,​ ​backend​ ​design,​ ​and​ ​UI/UX​ ​by creating​ ​a​ ​live-updating​ ​tree​ ​view​ ​as​ ​a​ ​web​ ​application.
 
 The​ ​tree​ ​should​ ​contain​ ​a​ ​group​ ​of​ ​nodes,​ ​with​ ​a main​ ​(root)​ ​node​ ​that​ ​can​ ​have​ ​any​ ​number​ ​of ‘factories’.
@@ -19,7 +20,8 @@ Your​ ​project​ ​should​ ​be​ ​secure,​ ​validate inputs,​
 
 Your​ ​project​ ​should​ ​be​ ​hosted​ ​on​ ​the​ ​web using​ ​a​ ​service​ ​such​ ​as​ ​Amazon​ ​AWS​ ​or Heroku​ ​to​ ​run​ ​your​ ​submission.
 
-Implementation notes:
+## Implementation notes
+
 * To start local development environment open client and server folders in your code editors. Run `npm i` and then `npm run start-docker`
 UI container will start on 127.0.0.1:8080, and API container on 127.0.0.1:3001. It is better to run UI via `npm start`
 (it will start on localhost:3000 in this case). Running dev UI server without container is faster.
