@@ -14,7 +14,7 @@
     "start-docker-prod": "docker-compose -f docker-compose.prod.yml up"
   },
   "dependencies": {
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^8.1.0",
