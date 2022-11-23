@@ -22,7 +22,7 @@
     "lorem-ipsum": "^2.0.3",
     "mongodb": "^3.3.2",
     "morgan": "~1.9.1",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"
